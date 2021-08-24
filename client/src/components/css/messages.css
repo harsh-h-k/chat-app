@@ -1,0 +1,6 @@
+.messages__box{
+   overflow: auto;
+   padding: 10px 0px;
+   flex: auto;
+   padding: 10px 5px ;
+}

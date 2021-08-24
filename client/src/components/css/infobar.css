@@ -1,0 +1,30 @@
+.info{
+    color: white;
+    border-radius: inherit;
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.info__left , .info__right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.info__left i{
+    font-size: 14px;
+    margin: 5px 10px;
+}
+
+.info__left h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.info__right i{
+    margin: 5px 10px;
+    font-size: 18px;
+    color: white;
+}

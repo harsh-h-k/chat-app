@@ -1,0 +1,29 @@
+.send__form{
+    border-top: 2px solid black;
+    display: flex;
+    height: 40px;
+}
+
+.send__form__input{
+    padding: 5px;
+    flex: 1;
+    color: black;
+    border: none;
+
+}
+
+::placeholder{
+    color: black;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.send__form__btn{
+    width: 20%;
+}
+
